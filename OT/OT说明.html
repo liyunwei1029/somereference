@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BPCC OT 加班申请与管理系统</title>
+    <style>
+        :root {
+            --red: #C50022;
+            --red-light: #FDE8EC;
+            --red-lighter: #FFF5F6;
+            --orange: #F39500;
+            --orange-light: #FFF4E0;
+            --orange-lighter: #FFFAF2;
+            --blue: #004A96;
+            --blue-light: #E5EEF8;
+            --blue-lighter: #F2F7FC;
+            --green: #65AC1E;
+            --green-light: #EDF7E2;
+            --green-lighter: #F6FBF1;
+            --bg: #E0E9F2;
+            --text: #1A2B3C;
+            --text-secondary: #4A5568;
+            --text-muted: #718096;
+            --white: #FFFFFF;
+            --shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+            --shadow-hover: 0 4px 20px rgba(0, 0, 0, 0.10);
+            --radius: 12px;
+            --radius-sm: 8px;
+            --transition: 0.25s ease;
+            --sidebar-width: 220px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        /* ── Layout ── */
+        .app-layout { display: flex; min-height: 100vh; }
+
+        /* ── Sidebar ── */
+        .sidebar {
+            width: var(--sidebar-width);
+            background: var(--white);
+            border-right: 1px solid rgba(0,0,0,0.06);
+            position: fixed;
+            top: 0; left: 0;
+            height: 100vh;
+            overflow-y: auto;
+            z-index: 100;
+            padding: 24px 0;
+            box-shadow: 2px 0 12px rgba(0,0,0,0.04);
+        }
+        .sidebar-logo { padding: 0 20px 20px; border-bottom: 1px solid rgba(0,0,0,0.06); margin-bottom: 12px; }
+        .sidebar-logo h3 { font-size: 1rem; font-weight: 700; color: var(--blue); line-height: 1.3; }
+        .sidebar-logo .logo-sub { font-size: 0.75rem; color: var(--text-muted); font-weight: 400; }
+        .sidebar a {
+            display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: var(--text-secondary);
+            font-size: 0.88rem;
+            font-weight: 500;
+            border-left: 3px solid transparent;
+            transition: var(--transition);
+        }
+        .sidebar a:hover { color: var(--blue); background: var(--blue-lighter); }
+        .sidebar a.active { color: var(--blue); background: var(--blue-lighter); border-left-color: var(--blue); font-weight: 600; }
+
+        /* ── Main Content ── */
+        .main-content { margin-left: var(--sidebar-width); flex: 1; min-width: 0; }
+
+        /* ── Header ── */
+        .header {
+            background: linear-gradient(135deg, var(--blue) 0%, #003670 100%);
+            color: var(--white);
+            padding: 40px 32px 36px;
+            position: relative; overflow: hidden;
+        }
+        .header::before { content:''; position:absolute; top:-60px; right:-80px; width:260px; height:260px; background:rgba(255,255,255,0.04); border-radius:50%; }
+        .header::after  { content:''; position:absolute; bottom:-40px; left:-60px; width:200px; height:200px; background:rgba(255,255,255,0.03); border-radius:50%; }
+        .header h1 { font-size: 1.8rem; font-weight: 700; letter-spacing: 0.02em; position: relative; z-index: 1; }
+        .header .subtitle { font-size: 0.95rem; opacity: 0.85; margin-top: 6px; position: relative; z-index: 1; font-weight: 400; }
+        .header .badge-row { display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap; position: relative; z-index: 1; }
+        .header .badge { display: inline-block; background: rgba(255,255,255,0.15); backdrop-filter: blur(4px); padding: 4px 14px; border-radius: 20px; font-size: 0.82rem; letter-spacing: 0.03em; }
+
+        /* ── Container ── */
+        .container { max-width: 960px; margin: 0 auto; padding: 32px 24px 60px; }
+
+        /* ── Section ── */
+        .section { margin-bottom: 44px; scroll-margin-top: 24px; }
+        .section-title { margin-bottom: 20px; }
+        .section-title h2 { font-size: 1.35rem; font-weight: 700; color: var(--text); padding-bottom: 8px; border-bottom: 2px solid rgba(0,0,0,0.08); }
+
+        /* ── Single Column Cards (sections 1-4) ── */
+        .card-list { display: flex; flex-direction: column; gap: 14px; }
+        .card-full {
+            background: var(--white);
+            border-radius: var(--radius);
+            padding: 20px 24px;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border-left: 4px solid transparent;
+        }
+        .card-full:hover { box-shadow: var(--shadow-hover); }
+        .card-full.red { border-left-color: var(--red); }
+        .card-full.orange { border-left-color: var(--orange); }
+        .card-full.blue { border-left-color: var(--blue); }
+        .card-full.green { border-left-color: var(--green); }
+        .card-full h3 { font-size: 1rem; font-weight: 700; margin-bottom: 6px; color: var(--text); }
+        .card-full p, .card-full li { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.75; }
+        .card-full ul { list-style: none; padding: 0; }
+        .card-full ul li { padding: 3px 0 3px 18px; position: relative; }
+        .card-full ul li::before { content: '•'; position: absolute; left: 0; top: 3px; color: var(--text-muted); }
+
+        /* ── Rule Grid (section 5: 2 per row, translucent, red left border) ── */
+        .rule-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+        .rule-card {
+            background: rgba(255,255,255,0.55);
+            backdrop-filter: blur(4px);
+            border-radius: var(--radius-sm);
+            padding: 14px 16px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            font-size: 0.87rem;
+            color: var(--text-secondary);
+            transition: var(--transition);
+            border-left: 4px solid var(--red);
+        }
+        .rule-card:hover { box-shadow: 0 3px 12px rgba(0,0,0,0.07); background: rgba(255,255,255,0.8); }
+        .rule-card .rule-letter {
+            flex-shrink: 0;
+            font-size: 0.78rem;
+            font-weight: 700;
+            color: var(--red);
+            min-width: 18px;
+            margin-top: 1px;
+        }
+
+        /* ── Category Big Card (section 6: 1 per row, dark header + translucent body) ── */
+        .cat-big-card {
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            margin-bottom: 20px;
+            transition: var(--transition);
+        }
+        .cat-big-card:hover { box-shadow: var(--shadow-hover); }
+        .cat-big-card .cat-head {
+            padding: 14px 22px;
+            color: var(--white);
+            font-weight: 700;
+            font-size: 0.95rem;
+            letter-spacing: 0.02em;
+        }
+        .cat-big-card .cat-head.red { background: var(--red); }
+        .cat-big-card .cat-head.orange { background: var(--orange); }
+        .cat-big-card .cat-head.blue { background: var(--blue); }
+        .cat-big-card .cat-head.green { background: var(--green); }
+        .cat-big-card .cat-body {
+            background: rgba(255,255,255,0.55);
+            backdrop-filter: blur(4px);
+            padding: 18px 22px;
+        }
+        .cat-big-card .cat-body .cat-row {
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+        }
+        .cat-big-card .cat-body .cat-row:last-child { border-bottom: none; }
+        .cat-big-card .cat-body .cat-row h4 {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 3px;
+        }
+        .cat-big-card .cat-body .cat-row p,
+        .cat-big-card .cat-body .cat-row li {
+            font-size: 0.87rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+        .cat-big-card .cat-body .cat-row ul { list-style: none; padding: 0; }
+        .cat-big-card .cat-body .cat-row ul li { padding: 2px 0 2px 16px; position: relative; }
+        .cat-big-card .cat-body .cat-row ul li::before { content: '•'; position: absolute; left: 0; top: 2px; color: var(--text-muted); }
+
+        /* ── Table ── */
+        .table-wrap { overflow-x: auto; border-radius: var(--radius); box-shadow: var(--shadow); background: var(--white); margin-top: 28px; }
+        table { width: 100%; border-collapse: collapse; font-size: 0.88rem; min-width: 700px; }
+        thead th { background: var(--blue); color: var(--white); padding: 14px 16px; text-align: left; font-weight: 600; font-size: 0.85rem; letter-spacing: 0.02em; }
+        thead th:first-child { border-radius: var(--radius) 0 0 0; }
+        thead th:last-child { border-radius: 0 var(--radius) 0 0; }
+        tbody td { padding: 12px 16px; border-bottom: 1px solid #EDF2F7; color: var(--text-secondary); vertical-align: top; }
+        tbody tr:last-child td { border-bottom: none; }
+        tbody tr:hover { background: #F7FAFD; }
+        .tag { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.78rem; font-weight: 600; letter-spacing: 0.03em; }
+        .tag.red { background: var(--red-light); color: var(--red); }
+        .tag.orange { background: var(--orange-light); color: #B87000; }
+        .tag.blue { background: var(--blue-light); color: var(--blue); }
+        .tag.green { background: var(--green-light); color: #4A8A12; }
+
+        /* ── Footer ── */
+        .footer { text-align: center; padding: 28px 20px; color: var(--text-muted); font-size: 0.82rem; border-top: 1px solid rgba(0,0,0,0.06); margin-top: 20px; }
+
+        /* ── Responsive ── */
+        @media (max-width: 768px) {
+            .sidebar { width: 100%; height: auto; position: relative; padding: 12px 0; overflow-x: auto; white-space: nowrap; border-right: none; border-bottom: 1px solid rgba(0,0,0,0.06); box-shadow: 0 1px 6px rgba(0,0,0,0.04); }
+            .sidebar-logo { display: inline-block; padding: 0 16px; border-bottom: none; margin-bottom: 0; vertical-align: middle; }
+            .sidebar a { display: inline-block; padding: 8px 14px; border-left: none; border-bottom: 2px solid transparent; font-size: 0.8rem; }
+            .sidebar a.active { border-left-color: transparent; border-bottom-color: var(--blue); }
+            .app-layout { flex-direction: column; }
+            .main-content { margin-left: 0; }
+            .header h1 { font-size: 1.4rem; }
+            .rule-grid { grid-template-columns: 1fr; }
+            .section-title h2 { font-size: 1.15rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="app-layout">
+
+<!-- ====== SIDEBAR ====== -->
+<aside class="sidebar" id="sidebar">
+    <div class="sidebar-logo">
+        <h3>BPCC OT</h3>
+        <div class="logo-sub">使用说明</div>
+    </div>
+    <a href="#section-login">1. 登录方式</a>
+    <a href="#section-employee">2. 员工上岗/转岗/离职管理</a>
+    <a href="#section-calendar">3. 日历管理</a>
+    <a href="#section-approval">4. 审批矩阵管理</a>
+    <a href="#section-rules">5. 最上层设计规则</a>
+    <a href="#section-category">6. 分工时类别设计规则</a>
+</aside>
+
+<!-- ====== MAIN ====== -->
+<div class="main-content">
+
+<!-- ====== HEADER ====== -->
+<header class="header">
+    <h1>BPCC OT 加班申请与管理系统</h1>
+    <p class="subtitle">设计说明 · 使用指南</p>
+    <div class="badge-row">
+        <span class="badge">📱 手机 / 电脑端</span>
+        <span class="badge">🔐 IDEA 账号登录</span>
+        <span class="badge">📊 SAP 报表导出</span>
+    </div>
+</header>
+
+<!-- ====== CONTAINER ====== -->
+<main class="container">
+
+    <!-- ── 1. 登录方式 ── -->
+    <section class="section" id="section-login">
+        <div class="section-title"><h2>1. 登录方式</h2></div>
+        <div class="card-list">
+            <div class="card-full red">
+                <h3>🔗 登录入口</h3>
+                <p>支持二维码 / 链接方式登录，手机端与电脑端均可使用。<strong>无需 IDEA 账号</strong>即可登录；审批人和报表查看需要 IDEA 账号。</p>
+            </div>
+            <div class="card-full red">
+                <h3>👤 员工身份校验</h3>
+                <p>填写员工号时系统自动判断状态：仅 <strong>Active</strong> 状态员工显示登录按钮，离职员工限制登录。</p>
+            </div>
+            <div class="card-full red">
+                <h3>🔑 修改密码</h3>
+                <p>首次登录需修改初始密码。点击"修改密码"超链接，输入原始密码和两次新密码，提交后跳转到登录界面。</p>
+            </div>
+            <div class="card-full red">
+                <h3>🔄 忘记密码 · 自助重置</h3>
+                <ul>
+                    <li>点击"忘记密码"，输入员工号，预留邮箱会收到一串随机码</li>
+                    <li>跳转到修改密码界面，输入收到的随机码和新密码</li>
+                    <li>提交后跳转到 OT 申请界面</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── 2. 员工管理 ── -->
+    <section class="section" id="section-employee">
+        <div class="section-title"><h2>2. 员工上岗 / 转岗 / 离职管理</h2></div>
+        <div class="card-list">
+            <div class="card-full orange">
+                <h3>📋 初始化</h3>
+                <p>根据提供的数据一次性上传到《人员信息维护表》中，需提供活动邮箱用于通知审批结果、修改密码等。系统提供二维码，供用户自行扫码输入个人邮箱。</p>
+            </div>
+            <div class="card-full orange">
+                <h3>🆕 新员工录入</h3>
+                <p>填写《员工信息更新-新增新员工》表，数据库按生效日期自动新增。考虑固定加班计算：生效日在前则立即生效并按月新增固定加班数据条目；生效日在后则当日新增。</p>
+            </div>
+            <div class="card-full orange">
+                <h3>🔄 转岗</h3>
+                <p>填写《员工信息更新-员工信息变更》表，每天零点系统自动判断：当 <em>valid from</em> ≤ 今天时自动触发，修改所有改动的个人数据。当为班组人员时，才触发修改固定加班时长。</p>
+            </div>
+            <div class="card-full orange">
+                <h3>🚪 离职</h3>
+                <p>填写《员工信息更新-员工信息变更》表，每天零点自动触发，修改所有改动的个人数据，并将当年剩余固定加班归零。</p>
+            </div>
+            <div class="card-full orange">
+                <h3>👥 考勤员权限</h3>
+                <ul>
+                    <li>可查看《人员信息维护》表（密码、验证码除外）—— 仅查看权限</li>
+                    <li>可编辑和查看《员工信息更新》表 —— 统一编辑入口</li>
+                    <li>修改后即触发，考虑晚维护情形</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── 3. 日历管理 ── -->
+    <section class="section" id="section-calendar">
+        <div class="section-title"><h2>3. 日历管理</h2></div>
+        <div class="card-list">
+            <div class="card-full blue">
+                <h3>📅 法定假期 & 排班表</h3>
+                <p>《国家法定假期》《综合工时人员排班表》已自动维护 <strong>30 年</strong>。</p>
+            </div>
+            <div class="card-full blue">
+                <h3>🔧 年度维护</h3>
+                <p>每年初维护特殊调休日、公司假日等，OT rate 会自动计算。</p>
+            </div>
+            <div class="card-full blue">
+                <h3>📆 固定加班表</h3>
+                <p>综合工时班组固定加班表统一维护 <strong>20 年</strong>（如国家法定假日增加可重新维护）。</p>
+            </div>
+            <div class="card-full blue">
+                <h3>🔄 年度自动生成</h3>
+                <p>每年 1 月 1 日自动根据固定加班表和人员清单生成下一年的《综合工时人员排班表》，建议<strong>提前审核</strong>。数据工厂更新时间为每年初1月1日，频率为每年一次，人员筛选时去除 Deactive 离职人员。</p>
+            </div>
+            <div class="card-full blue">
+                <h3>📊 每月审核《倒班工人固定加班时数（按人）》</h3>
+                <ul>
+                    <li>考勤员每月查看固定加班时数表，可手动调整加减项</li>
+                    <li>如人员信息有误，去员工信息更新修改，固定加班时数表会自动更新</li>
+                    <li>考勤员每人仅限自己数据权限，提供 12 个月份快捷视图（提交时间 = 当年，月份 = 1–12）</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── 4. 审批矩阵 ── -->
+    <section class="section" id="section-approval">
+        <div class="section-title"><h2>4. 审批矩阵管理</h2></div>
+        <div class="card-list">
+            <div class="card-full green">
+                <h3>👔 审批人员配置</h3>
+                <p>提供各部门的一级审批负责人（多选）、二级审批负责人、考勤员，以上人员需要 BASF 账号接收审批消息。</p>
+            </div>
+            <div class="card-full green">
+                <h3>📝 审批流程</h3>
+                <p>倒班班长 / 部分没有一级审批的部门，直接进行二级审批；其余记录进行一级审批。填写 OT 申请表中的"审批意见"和"评论"字段。</p>
+            </div>
+            <div class="card-full green">
+                <h3>📋 月底批量审批</h3>
+                <p>部门经理于月底进行批量审批，批量自动填写 OT 申请表中的"经理意见"字段。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── 5. 通用设计规则 ── -->
+    <section class="section" id="section-rules">
+        <div class="section-title"><h2>5. 最上层设计规则</h2></div>
+        <div class="rule-grid">
+            <div class="rule-card"><span class="rule-letter">a</span>所有申请单每条数据不得跨年（强制提交校验限制）</div>
+            <div class="rule-card"><span class="rule-letter">b</span>标准工时 C 和 F 不得跨月（强制提交校验限制）</div>
+            <div class="rule-card"><span class="rule-letter">c</span>申请日最早提前 30 天，补登一周之内，超过不可补登</div>
+            <div class="rule-card"><span class="rule-letter">d</span>OT 最小单位以半小时计</div>
+            <div class="rule-card"><span class="rule-letter">e</span>抢修不纳入任何上限管理，报表区分总 OT 和纳入计算 OT</div>
+            <div class="rule-card"><span class="rule-letter">f</span>CDEF 允许选择补休；B 选择补休后自动校验限制提交。默认结算工资。补休不计入成本但计入上限</div>
+            <div class="rule-card"><span class="rule-letter">g</span>不同申请单不允许同一个人相同日期提交；一级审批驳回后清除校验</div>
+            <div class="rule-card"><span class="rule-letter">h</span>同一申请单允许相同日期不同行提交（上下午两段），时间段重复校验</div>
+            <div class="rule-card"><span class="rule-letter">i</span>培训加班 ≥ 8 小时，后台自动产生培训员工倒班津贴扣款 / 白班顶班津贴 -50</div>
+            <div class="rule-card"><span class="rule-letter">j</span>培训类统一合并为"培训"；抢修自动分类：Rush Repair-PH / OFF / WORK</div>
+            <div class="rule-card"><span class="rule-letter">k</span>一级审批进入工作流，多人任意一人批准即可</div>
+            <div class="rule-card"><span class="rule-letter">l</span>二级审批月底批量审批，不进入工作流，结果回写主数据</div>
+            <div class="rule-card"><span class="rule-letter">m</span>Cost 字段仅开放 GM 和 Production Head（Admin）</div>
+            <div class="rule-card"><span class="rule-letter">n</span>SAP 报表结构 follow 马来西亚格式，开启导出功能</div>
+            <div class="rule-card"><span class="rule-letter">o</span>倒班 08:00–20:00，默认 0 吃饭时间，可选 0.5 hour</div>
+            <div class="rule-card"><span class="rule-letter">p</span>常日班 08:30–17:00，默认 0.5h 吃饭时间，可选 0 hour</div>
+            <div class="rule-card"><span class="rule-letter">q</span>24:00 PM 为非法字符，导出时自动转换为次日 00:00 AM</div>
+        </div>
+    </section>
+
+    <!-- ── 6. 工时类别规则 ── -->
+    <section class="section" id="section-category">
+        <div class="section-title"><h2>6. 分工时类别设计规则</h2></div>
+
+        <!-- E 类 -->
+        <div class="cat-big-card">
+            <div class="cat-head red">E 类：综合工时 · 倒班人员（含 4 级倒班班长）</div>
+            <div class="cat-body">
+                <div class="cat-row">
+                    <h4>⏰ 工作时间控制</h4>
+                    <p>只能填写非工作时间，系统根据排班和班组自动筛选可选时间。上班后至少休息8小时。考虑班长特殊培训情况。</p>
+                </div>
+                <div class="cat-row">
+                    <h4>🍽 吃饭时间</h4>
+                    <p>默认 0 hr，提供手动可选择项 0.5 hr。如选择，后台直接记录 12:00–12:30 PM。</p>
+                </div>
+                <div class="cat-row">
+                    <h4>💰 OT Rate</h4>
+                    <p>国家假期 ×3.0，其他 ×1.5。</p>
+                </div>
+                <div class="cat-row">
+                    <h4>📊 上限管理</h4>
+                    <p>每年加班 <strong>432 小时</strong>提交限制。固定加班总时长纳入上限管理，不上报马来西亚。申请页面显示本次总申请小时数和纳入上限计算总小时数。</p>
+                </div>
+                <div class="cat-row">
+                    <h4>🧮 固定加班计算逻辑</h4>
+                    <ul>
+                        <li>各班组每月工作总时长 − 常日班每月工作总时长（165.36）</li>
+                        <li>计算多年每个班组总时长的总表，分到月份</li>
+                        <li>每年自动生成匹配到每个人的表，考勤员每月确认可手动修改</li>
+                        <li>根据人员变更触发智能助手修改后续月份数字</li>
+                    </ul>
+                </div>
+                <div class="cat-row">
+                    <h4>⚠️ 连续加班 ≤ 12 小时</h4>
+                    <ul>
+                        <li>倒班工作后加班必须休息8小时，控制小时选择范围。</li>
+                        <li><strong>例外：</strong>班长 sleep 班后早上开会到 12 点（OT 类别为培训会议时，额外开放 08:00–12:00，保留16:00 后开放）。</li>
+                        <li><strong>豁免：</strong>抢修情形不受此限制。</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- C / F 类 -->
+        <div class="cat-big-card">
+            <div class="cat-head orange">C 类：标准工时 · 特殊 4 级员工（MAI、MDI 生产白班）&nbsp;&nbsp;|&nbsp;&nbsp;F 类：其他人员</div>
+            <div class="cat-body">
+                <div class="cat-row">
+                    <h4>⏰ 工作时间</h4>
+                    <p>常日班 08:30–17:00。工作日或调休工作日加班时间系统强制控制；假期和调休假日不控制选择时间。</p>
+                </div>
+                <div class="cat-row">
+                    <h4>🍽 吃饭时间</h4>
+                    <p>默认 0.5 小时，提供 0 小时选项。如不为 0，后台自动填写 12:00–12:30 用于 SAP 数据上报。</p>
+                </div>
+                <div class="cat-row">
+                    <h4>💰 OT Rate</h4>
+                    <p>法定假日 ×3.0，周末和调休周末 ×2.0，其他 ×1.5。</p>
+                </div>   
+                <div class="cat-row">
+                    <h4>📊 上限管理</h4>
+                    <p>每月加班 ≤ <strong>36 小时</strong>（强制提交限制）；工作日加班 ≤ <strong>3 小时/天</strong>（含多条一天的情况）；周末/调休假日/国家假日 ≤ <strong>11 小时/天</strong>。</p>
+                </div>
+                <div class="cat-row">
+                    <h4>🛌 每周至少休息一天</h4>
+                    <p>周度校验：总休息日 − 非工作日提交计数 ≥ 1，否则警告并强制填写补充说明。</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- B 类 -->
+        <div class="cat-big-card">
+            <div class="cat-head blue">B 类：不定时 · 除 C/D/E 类外的所有 4 级员工（工程师、副经理）</div>
+            <div class="cat-body">
+                <div class="cat-row">
+                    <h4>📅 申请限制</h4>
+                    <p>只有法定假日可申请加班，后台强制校验，不满足限制提交。</p>
+                </div>
+                <div class="cat-row">
+                    <h4>🍽 吃饭时间</h4>
+                    <p>默认 0.5 小时，提供 0 小时选项。如不为 0，后台自动填写 12:00–12:30 用于 SAP 数据上报。</p>
+                </div>
+                <div class="cat-row">
+                    <h4>💰 OT Rate</h4>
+                    <p>统一 ×3.0。</p>
+                </div>
+                <div class="cat-row">
+                    <h4>⏱ 单日上限</h4>
+                    <p>单日加班不可超过 <strong>11 小时</strong>，限制提交。</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- D 类 -->
+        <div class="cat-big-card">
+            <div class="cat-head green">D 类：综合工时 · 特殊 4 级员工（行政主管、IT 主管、LFG 主管）</div>
+            <div class="cat-body">
+                <div class="cat-row">
+                    <h4>📅 法定假日</h4>
+                    <p>法定假日的加班必须为结算工资，限制提交。</p>
+                </div>
+                <div class="cat-row">
+                    <h4>🔄 其他日期</h4>
+                    <p>其他日期申请加班计入上限，类型是补休，限制提交。</p>
+                </div>
+                <div class="cat-row">
+                    <h4>📊 上限管理</h4>
+                    <p>每年加班不超过 <strong>432 小时</strong>，限制提交。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- ====== FOOTER ====== -->
+<footer class="footer">
+    <p>BPCC OT 使用说明 · 内部文档 · Internal</p>
+</footer>
+
+</div><!-- /main-content -->
+</div><!-- /app-layout -->
+
+<!-- ====== JS: Sidebar Active State ====== -->
+<script>
+(function() {
+    const sidebar = document.getElementById('sidebar');
+    const links = sidebar.querySelectorAll('a');
+    const sections = [];
+    links.forEach(a => {
+        const id = a.getAttribute('href').slice(1);
+        const el = document.getElementById(id);
+        if (el) sections.push({ el, a });
+    });
+    function update() {
+        let current = sections[0];
+        const scrollY = window.scrollY + 60;
+        for (const s of sections) {
+            if (s.el.offsetTop <= scrollY) current = s;
+        }
+        links.forEach(a => a.classList.remove('active'));
+        if (current) current.a.classList.add('active');
+    }
+    window.addEventListener('scroll', update, { passive: true });
+    update();
+})();
+</script>
+
+</body>
+</html>
