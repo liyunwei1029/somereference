@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="297mm" height="210mm" viewBox="0 0 2339 1654">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="Microsoft YaHei, 微软雅黑, PingFang SC, Noto Sans SC, sans-serif">
+<rect x="1980.8" y="10.0" width="78.0" height="24.0" rx="2" fill="#F6C8C8" stroke="#E4A3A3" stroke-width="1"/>
+<text x="2019.8" y="22.5" text-anchor="middle" dominant-baseline="middle" font-size="16" fill="#6A3333">指数系列</text>
+<rect x="2071.4" y="10.0" width="46.0" height="24.0" rx="2" fill="#DCCEF2" stroke="#C3AEE0" stroke-width="1"/>
+<text x="2094.4" y="22.5" text-anchor="middle" dominant-baseline="middle" font-size="16" fill="#3E2C5A">大类</text>
+<rect x="2129.9" y="10.0" width="46.0" height="24.0" rx="2" fill="#D0DCF7" stroke="#AFC0E8" stroke-width="1"/>
+<text x="2152.9" y="22.5" text-anchor="middle" dominant-baseline="middle" font-size="16" fill="#2A3C64">中类</text>
+<rect x="2188.5" y="10.0" width="46.0" height="24.0" rx="2" fill="#D5EDF8" stroke="#A6D0E8" stroke-width="1"/>
+<text x="2211.5" y="22.5" text-anchor="middle" dominant-baseline="middle" font-size="16" fill="#1C4558">小类</text>
+<rect x="2247.0" y="10.0" width="78.0" height="24.0" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="2286.0" y="22.5" text-anchor="middle" dominant-baseline="middle" font-size="16" fill="#5C4216">底层指数</text>
+<line x1="1017.33" y1="178.85" x2="1017.33" y2="186.69" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1017.33" y1="211.96" x2="1017.33" y2="219.80" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1017.33" y1="130.06" x2="1017.33" y2="153.58" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1199.04" y1="229.64" x2="1199.04" y2="237.48" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1199.04" y1="262.75" x2="1199.04" y2="270.59" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1199.04" y1="180.85" x2="1199.04" y2="204.37" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1199.04" y1="130.06" x2="1199.04" y2="153.58" stroke="#B7A6D4" stroke-width="1.2"/>
+<line x1="1363.76" y1="197.85" x2="1363.76" y2="205.69" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1363.76" y1="130.06" x2="1363.76" y2="153.58" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="111.35" y1="479.20" x2="111.35" y2="502.72" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="253.86" y1="527.99" x2="253.86" y2="535.83" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="253.86" y1="561.10" x2="253.86" y2="568.94" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="253.86" y1="594.21" x2="253.86" y2="602.05" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="253.86" y1="479.20" x2="253.86" y2="502.72" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="404.88" y1="479.20" x2="404.88" y2="502.72" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="538.90" y1="546.99" x2="538.90" y2="554.83" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="538.90" y1="580.10" x2="538.90" y2="587.94" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="538.90" y1="479.20" x2="538.90" y2="502.72" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="325.12" y1="430.41" x2="325.12" y2="442.17" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="111.35" y1="442.17" x2="538.90" y2="442.17" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="111.35" y1="442.17" x2="111.35" y2="453.93" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="253.86" y1="442.17" x2="253.86" y2="453.93" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="404.88" y1="442.17" x2="404.88" y2="453.93" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="538.90" y1="442.17" x2="538.90" y2="453.93" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="673.82" y1="565.99" x2="673.82" y2="573.83" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="673.82" y1="599.10" x2="673.82" y2="606.94" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="673.82" y1="651.21" x2="673.82" y2="659.05" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="673.82" y1="498.20" x2="673.82" y2="521.72" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="816.34" y1="527.99" x2="816.34" y2="535.83" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="816.34" y1="561.10" x2="816.34" y2="568.94" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="816.34" y1="479.20" x2="816.34" y2="502.72" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="975.86" y1="546.99" x2="975.86" y2="554.83" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="975.86" y1="580.10" x2="975.86" y2="587.94" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="975.86" y1="613.21" x2="975.86" y2="621.05" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="975.86" y1="646.32" x2="975.86" y2="654.16" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="975.86" y1="698.43" x2="975.86" y2="706.27" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="975.86" y1="731.54" x2="975.86" y2="739.38" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="975.86" y1="764.65" x2="975.86" y2="772.49" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="975.86" y1="479.20" x2="975.86" y2="502.72" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1135.38" y1="479.20" x2="1135.38" y2="502.72" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1286.39" y1="565.99" x2="1286.39" y2="573.83" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1286.39" y1="599.10" x2="1286.39" y2="606.94" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1286.39" y1="632.21" x2="1286.39" y2="640.05" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1286.39" y1="665.32" x2="1286.39" y2="673.16" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1286.39" y1="698.43" x2="1286.39" y2="706.27" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1286.39" y1="498.20" x2="1286.39" y2="521.72" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1403.41" y1="479.20" x2="1403.41" y2="502.72" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1503.43" y1="479.20" x2="1503.43" y2="502.72" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1620.45" y1="479.20" x2="1620.45" y2="502.72" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1147.14" y1="430.41" x2="1147.14" y2="442.17" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="673.82" y1="442.17" x2="1620.45" y2="442.17" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="673.82" y1="442.17" x2="673.82" y2="453.93" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="816.34" y1="442.17" x2="816.34" y2="453.93" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="975.86" y1="442.17" x2="975.86" y2="453.93" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="1135.38" y1="442.17" x2="1135.38" y2="453.93" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="1286.39" y1="442.17" x2="1286.39" y2="453.93" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="1403.41" y1="442.17" x2="1403.41" y2="453.93" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="1503.43" y1="442.17" x2="1503.43" y2="453.93" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="1620.45" y1="442.17" x2="1620.45" y2="453.93" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="1763.87" y1="479.20" x2="1763.87" y2="487.04" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1763.87" y1="512.31" x2="1763.87" y2="520.15" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1763.87" y1="430.41" x2="1763.87" y2="453.93" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1924.30" y1="546.99" x2="1924.30" y2="554.83" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1924.30" y1="599.10" x2="1924.30" y2="606.94" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1924.30" y1="479.20" x2="1924.30" y2="502.72" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="2083.81" y1="546.99" x2="2083.81" y2="554.83" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="2083.81" y1="479.20" x2="2083.81" y2="502.72" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="2004.06" y1="430.41" x2="2004.06" y2="442.17" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="1924.30" y1="442.17" x2="2083.81" y2="442.17" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="1924.30" y1="442.17" x2="1924.30" y2="453.93" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="2083.81" y1="442.17" x2="2083.81" y2="453.93" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="2244.24" y1="498.20" x2="2244.24" y2="506.04" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="2244.24" y1="531.31" x2="2244.24" y2="539.15" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="2244.24" y1="583.42" x2="2244.24" y2="591.26" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="2244.24" y1="635.53" x2="2244.24" y2="643.37" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="2244.24" y1="430.41" x2="2244.24" y2="453.93" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1284.68" y1="379.62" x2="1284.68" y2="391.38" stroke="#B7A6D4" stroke-width="1.2"/>
+<line x1="325.12" y1="391.38" x2="2244.24" y2="391.38" stroke="#B7A6D4" stroke-width="1.2"/>
+<line x1="325.12" y1="391.38" x2="325.12" y2="403.14" stroke="#B7A6D4" stroke-width="1.2"/>
+<line x1="1147.14" y1="391.38" x2="1147.14" y2="403.14" stroke="#B7A6D4" stroke-width="1.2"/>
+<line x1="1763.87" y1="391.38" x2="1763.87" y2="403.14" stroke="#B7A6D4" stroke-width="1.2"/>
+<line x1="2004.06" y1="391.38" x2="2004.06" y2="403.14" stroke="#B7A6D4" stroke-width="1.2"/>
+<line x1="2244.24" y1="391.38" x2="2244.24" y2="403.14" stroke="#B7A6D4" stroke-width="1.2"/>
+<line x1="361.47" y1="1029.90" x2="361.47" y2="1037.73" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="361.47" y1="1063.01" x2="361.47" y2="1070.85" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="361.47" y1="1096.12" x2="361.47" y2="1103.96" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="361.47" y1="1129.23" x2="361.47" y2="1137.07" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="361.47" y1="1162.34" x2="361.47" y2="1170.18" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="361.47" y1="1195.45" x2="361.47" y2="1203.29" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="361.47" y1="1228.56" x2="361.47" y2="1236.40" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="361.47" y1="1261.67" x2="361.47" y2="1269.51" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="361.47" y1="1294.78" x2="361.47" y2="1302.62" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="361.47" y1="981.11" x2="361.47" y2="1004.62" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="361.47" y1="913.32" x2="361.47" y2="936.84" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="513.40" y1="981.11" x2="513.40" y2="988.95" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="513.40" y1="1014.22" x2="513.40" y2="1022.06" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="513.40" y1="1047.33" x2="513.40" y2="1055.17" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="513.40" y1="913.32" x2="513.40" y2="936.84" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="665.32" y1="962.11" x2="665.32" y2="969.95" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="665.32" y1="995.22" x2="665.32" y2="1003.06" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="665.32" y1="1028.33" x2="665.32" y2="1036.17" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="665.32" y1="913.32" x2="665.32" y2="936.84" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="825.75" y1="1029.90" x2="825.75" y2="1037.73" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="825.75" y1="1082.01" x2="825.75" y2="1089.85" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="825.75" y1="1134.12" x2="825.75" y2="1141.96" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="825.75" y1="1167.23" x2="825.75" y2="1175.07" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="825.75" y1="1200.34" x2="825.75" y2="1208.18" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="825.75" y1="1233.45" x2="825.75" y2="1241.29" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="825.75" y1="962.11" x2="825.75" y2="985.62" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="968.27" y1="1029.90" x2="968.27" y2="1037.73" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="968.27" y1="962.11" x2="968.27" y2="985.62" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1110.78" y1="1010.90" x2="1110.78" y2="1018.73" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1110.78" y1="1063.01" x2="1110.78" y2="1070.85" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1110.78" y1="1115.12" x2="1110.78" y2="1122.96" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1110.78" y1="1148.23" x2="1110.78" y2="1156.07" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1110.78" y1="1181.34" x2="1110.78" y2="1189.18" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1110.78" y1="962.11" x2="1110.78" y2="985.62" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="968.27" y1="913.32" x2="968.27" y2="925.08" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="825.75" y1="925.08" x2="1110.78" y2="925.08" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="825.75" y1="925.08" x2="825.75" y2="936.84" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="968.27" y1="925.08" x2="968.27" y2="936.84" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="1110.78" y1="925.08" x2="1110.78" y2="936.84" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="1271.21" y1="962.11" x2="1271.21" y2="985.62" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1413.73" y1="1010.90" x2="1413.73" y2="1018.73" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1413.73" y1="1044.01" x2="1413.73" y2="1051.85" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1413.73" y1="962.11" x2="1413.73" y2="985.62" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1564.74" y1="1010.90" x2="1564.74" y2="1018.73" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1564.74" y1="1063.01" x2="1564.74" y2="1070.85" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1564.74" y1="962.11" x2="1564.74" y2="985.62" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1707.26" y1="1010.90" x2="1707.26" y2="1018.73" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1707.26" y1="962.11" x2="1707.26" y2="985.62" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1489.24" y1="913.32" x2="1489.24" y2="925.08" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="1271.21" y1="925.08" x2="1707.26" y2="925.08" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="1271.21" y1="925.08" x2="1271.21" y2="936.84" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="1413.73" y1="925.08" x2="1413.73" y2="936.84" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="1564.74" y1="925.08" x2="1564.74" y2="936.84" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="1707.26" y1="925.08" x2="1707.26" y2="936.84" stroke="#8FC0DE" stroke-width="1.2"/>
+<line x1="1850.69" y1="962.11" x2="1850.69" y2="969.95" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1850.69" y1="913.32" x2="1850.69" y2="936.84" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="2002.61" y1="962.11" x2="2002.61" y2="969.95" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="2002.61" y1="913.32" x2="2002.61" y2="936.84" stroke="#E39A42" stroke-width="1.2"/>
+<line x1="1182.04" y1="862.53" x2="1182.04" y2="874.29" stroke="#B7A6D4" stroke-width="1.2"/>
+<line x1="361.47" y1="874.29" x2="2002.61" y2="874.29" stroke="#B7A6D4" stroke-width="1.2"/>
+<line x1="361.47" y1="874.29" x2="361.47" y2="886.05" stroke="#B7A6D4" stroke-width="1.2"/>
+<line x1="513.40" y1="874.29" x2="513.40" y2="886.05" stroke="#B7A6D4" stroke-width="1.2"/>
+<line x1="665.32" y1="874.29" x2="665.32" y2="886.05" stroke="#B7A6D4" stroke-width="1.2"/>
+<line x1="968.27" y1="874.29" x2="968.27" y2="886.05" stroke="#B7A6D4" stroke-width="1.2"/>
+<line x1="1489.24" y1="874.29" x2="1489.24" y2="886.05" stroke="#B7A6D4" stroke-width="1.2"/>
+<line x1="1850.69" y1="874.29" x2="1850.69" y2="886.05" stroke="#B7A6D4" stroke-width="1.2"/>
+<line x1="2002.61" y1="874.29" x2="2002.61" y2="886.05" stroke="#B7A6D4" stroke-width="1.2"/>
+<line x1="1182.04" y1="76.27" x2="1182.04" y2="88.03" stroke="#C9B6DE" stroke-width="1.2"/>
+<line x1="1017.33" y1="88.03" x2="1363.76" y2="88.03" stroke="#C9B6DE" stroke-width="1.2"/>
+<line x1="1017.33" y1="88.03" x2="1017.33" y2="99.79" stroke="#C9B6DE" stroke-width="1.2"/>
+<line x1="1199.04" y1="88.03" x2="1199.04" y2="99.79" stroke="#C9B6DE" stroke-width="1.2"/>
+<line x1="1363.76" y1="88.03" x2="1363.76" y2="99.79" stroke="#C9B6DE" stroke-width="1.2"/>
+<line x1="36.83" y1="88.03" x2="1017.33" y2="88.03" stroke="#C9B6DE" stroke-width="1.2"/>
+<line x1="36.83" y1="364.49" x2="1232.84" y2="364.49" stroke="#C9B6DE" stroke-width="1.2"/>
+<line x1="36.83" y1="847.39" x2="1152.20" y2="847.39" stroke="#C9B6DE" stroke-width="1.2"/>
+<line x1="36.83" y1="88.03" x2="36.83" y2="847.39" stroke="#C9B6DE" stroke-width="1.2"/>
+<rect x="1090.20" y="40.00" width="183.68" height="36.27" rx="2" fill="#F6C8C8" stroke="#E4A3A3" stroke-width="1"/>
+<text x="1182.04" y="58.14" text-anchor="middle" dominant-baseline="middle" font-size="28" font-weight="700" fill="#6A3333">银联消费指数</text>
+<rect x="987.49" y="99.79" width="59.68" height="30.27" rx="2" fill="#DCCEF2" stroke="#C3AEE0" stroke-width="1"/>
+<text x="1017.33" y="114.92" text-anchor="middle" dominant-baseline="middle" font-size="22" font-weight="700" fill="#3E2C5A">餐饮</text>
+<rect x="975.49" y="153.58" width="83.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1017.33" y="166.21" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">正餐服务</text>
+<rect x="949.99" y="186.69" width="134.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1017.33" y="199.32" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">饮料及冷饮服务</text>
+<rect x="975.49" y="219.80" width="83.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1017.33" y="232.43" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">快餐服务</text>
+<rect x="1158.20" y="99.79" width="81.68" height="30.27" rx="2" fill="#DCCEF2" stroke="#C3AEE0" stroke-width="1"/>
+<text x="1199.04" y="114.92" text-anchor="middle" dominant-baseline="middle" font-size="22" font-weight="700" fill="#3E2C5A">房地产</text>
+<rect x="1153.20" y="153.58" width="91.68" height="27.27" rx="2" fill="#D0DCF7" stroke="#AFC0E8" stroke-width="1"/>
+<text x="1199.04" y="167.21" text-anchor="middle" dominant-baseline="middle" font-size="19" font-weight="700" fill="#2A3C64">房地产类</text>
+<rect x="1131.70" y="204.37" width="134.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1199.04" y="217.00" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">房地产开发经营</text>
+<rect x="1140.20" y="237.48" width="117.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1199.04" y="250.11" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">建筑装修服务</text>
+<rect x="1148.70" y="270.59" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1199.04" y="283.22" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">房产中介</text>
+<text x="1199.04" y="302.22" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">与物业服务</text>
+<rect x="1333.92" y="99.79" width="59.68" height="30.27" rx="2" fill="#DCCEF2" stroke="#C3AEE0" stroke-width="1"/>
+<text x="1363.76" y="114.92" text-anchor="middle" dominant-baseline="middle" font-size="22" font-weight="700" fill="#3E2C5A">其他</text>
+<rect x="1313.42" y="153.58" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1363.76" y="166.21" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">农业经营</text>
+<text x="1363.76" y="185.21" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">与合作服务</text>
+<rect x="1321.92" y="205.69" width="83.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1363.76" y="218.32" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">其他业态</text>
+<rect x="1232.84" y="349.35" width="103.68" height="30.27" rx="2" fill="#DCCEF2" stroke="#C3AEE0" stroke-width="1"/>
+<text x="1284.68" y="364.49" text-anchor="middle" dominant-baseline="middle" font-size="22" font-weight="700" fill="#3E2C5A">商品零售</text>
+<rect x="269.78" y="403.14" width="110.68" height="27.27" rx="2" fill="#D0DCF7" stroke="#AFC0E8" stroke-width="1"/>
+<text x="325.12" y="416.78" text-anchor="middle" dominant-baseline="middle" font-size="19" font-weight="700" fill="#2A3C64">必选消费品</text>
+<rect x="52.51" y="453.93" width="117.68" height="25.27" rx="2" fill="#D5EDF8" stroke="#A6D0E8" stroke-width="1"/>
+<text x="111.35" y="466.57" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#1C4558">粮油、食品类</text>
+<rect x="69.51" y="502.72" width="83.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="111.35" y="515.35" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">食品零售</text>
+<rect x="212.02" y="453.93" width="83.68" height="25.27" rx="2" fill="#D5EDF8" stroke="#A6D0E8" stroke-width="1"/>
+<text x="253.86" y="466.57" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#1C4558">日用品类</text>
+<rect x="212.02" y="502.72" width="83.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="253.86" y="515.35" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">综合零售</text>
+<rect x="186.52" y="535.83" width="134.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="253.86" y="548.47" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">礼品与收藏用品</text>
+<rect x="178.02" y="568.94" width="151.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="253.86" y="581.58" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">婴幼儿及儿童用品</text>
+<rect x="186.52" y="602.05" width="134.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="253.86" y="614.69" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">眼镜与视光用品</text>
+<rect x="371.54" y="453.93" width="66.68" height="25.27" rx="2" fill="#D5EDF8" stroke="#A6D0E8" stroke-width="1"/>
+<text x="404.88" y="466.57" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#1C4558">烟酒类</text>
+<rect x="337.54" y="502.72" width="134.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="404.88" y="515.35" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">烟草与酒类商贸</text>
+<rect x="488.56" y="453.93" width="100.68" height="25.27" rx="2" fill="#D5EDF8" stroke="#A6D0E8" stroke-width="1"/>
+<text x="538.90" y="466.57" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#1C4558">中西药品类</text>
+<rect x="480.06" y="502.72" width="117.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="538.90" y="515.35" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">康复辅具与</text>
+<text x="538.90" y="534.35" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">医疗用品零售</text>
+<rect x="497.06" y="554.83" width="83.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="538.90" y="567.47" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">药品零售</text>
+<rect x="488.56" y="587.94" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="538.90" y="600.58" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">医药与医</text>
+<text x="538.90" y="619.58" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">疗器械批发</text>
+<rect x="1072.80" y="403.14" width="148.68" height="27.27" rx="2" fill="#D0DCF7" stroke="#AFC0E8" stroke-width="1"/>
+<text x="1147.14" y="416.78" text-anchor="middle" dominant-baseline="middle" font-size="19" font-weight="700" fill="#2A3C64">其他可选消费品</text>
+<rect x="623.48" y="453.93" width="100.68" height="44.27" rx="2" fill="#D5EDF8" stroke="#A6D0E8" stroke-width="1"/>
+<text x="673.82" y="466.57" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#1C4558">家用电器和</text>
+<text x="673.82" y="485.57" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#1C4558">音像器材类</text>
+<rect x="623.48" y="521.72" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="673.82" y="534.35" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">家用电器</text>
+<text x="673.82" y="553.35" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">及电器附件</text>
+<rect x="631.98" y="573.83" width="83.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="673.82" y="586.47" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">音像器材</text>
+<rect x="623.48" y="606.94" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="673.82" y="619.58" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">消费电子</text>
+<text x="673.82" y="638.58" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">与数码设备</text>
+<rect x="614.98" y="659.05" width="117.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="673.82" y="671.69" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">摄影摄像器材</text>
+<rect x="749.00" y="453.93" width="134.68" height="25.27" rx="2" fill="#D5EDF8" stroke="#A6D0E8" stroke-width="1"/>
+<text x="816.34" y="466.57" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#1C4558">文化办公用品类</text>
+<rect x="740.50" y="502.72" width="151.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="816.34" y="515.35" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">文化办公用品零售</text>
+<rect x="757.50" y="535.83" width="117.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="816.34" y="548.47" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">艺术品与古玩</text>
+<rect x="757.50" y="568.94" width="117.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="816.34" y="581.58" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">其他综合批发</text>
+<rect x="942.52" y="453.93" width="66.68" height="25.27" rx="2" fill="#D5EDF8" stroke="#A6D0E8" stroke-width="1"/>
+<text x="975.86" y="466.57" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#1C4558">其他类</text>
+<rect x="925.52" y="502.72" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="975.86" y="515.35" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">脚踏自行</text>
+<text x="975.86" y="534.35" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">车及其零件</text>
+<rect x="917.02" y="554.83" width="117.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="975.86" y="567.47" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">二手生活用品</text>
+<rect x="900.02" y="587.94" width="151.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="975.86" y="600.58" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">花卉园艺用品零售</text>
+<rect x="917.02" y="621.05" width="117.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="975.86" y="633.69" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">其他专门零售</text>
+<rect x="925.52" y="654.16" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="975.86" y="666.80" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">直销与订</text>
+<text x="975.86" y="685.80" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">购综合零售</text>
+<rect x="908.52" y="706.27" width="134.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="975.86" y="718.91" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">宠物及宠物用品</text>
+<rect x="900.02" y="739.38" width="151.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="975.86" y="752.02" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">耐用品及设备批发</text>
+<rect x="917.02" y="772.49" width="117.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="975.86" y="785.13" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">非耐用品批发</text>
+<rect x="1059.54" y="453.93" width="151.68" height="25.27" rx="2" fill="#D5EDF8" stroke="#A6D0E8" stroke-width="1"/>
+<text x="1135.38" y="466.57" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#1C4558">体育、娱乐用品类</text>
+<rect x="1059.54" y="502.72" width="151.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1135.38" y="515.35" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">体育娱乐用品零售</text>
+<rect x="1227.56" y="453.93" width="117.68" height="44.27" rx="2" fill="#D5EDF8" stroke="#A6D0E8" stroke-width="1"/>
+<text x="1286.39" y="466.57" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#1C4558">服装、鞋帽</text>
+<text x="1286.39" y="485.57" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#1C4558">、针纺织品类</text>
+<rect x="1236.06" y="521.72" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1286.39" y="534.35" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">鞋履箱包</text>
+<text x="1286.39" y="553.35" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">与穿戴配件</text>
+<rect x="1227.56" y="573.83" width="117.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1286.39" y="586.47" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">服装服饰综合</text>
+<rect x="1219.06" y="606.94" width="134.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1286.39" y="619.58" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">女性服饰与饰品</text>
+<rect x="1227.56" y="640.05" width="117.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1286.39" y="652.69" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">纺织针织用品</text>
+<rect x="1219.06" y="673.16" width="134.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1286.39" y="685.80" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">服装定制与修补</text>
+<rect x="1236.06" y="706.27" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1286.39" y="718.91" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">服饰纺织</text>
+<text x="1286.39" y="737.91" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">与个护批发</text>
+<rect x="1361.57" y="453.93" width="83.68" height="25.27" rx="2" fill="#D5EDF8" stroke="#A6D0E8" stroke-width="1"/>
+<text x="1403.41" y="466.57" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#1C4558">化妆品类</text>
+<rect x="1361.57" y="502.72" width="83.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1403.41" y="515.35" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">化妆品类</text>
+<rect x="1453.09" y="453.93" width="100.68" height="25.27" rx="2" fill="#D5EDF8" stroke="#A6D0E8" stroke-width="1"/>
+<text x="1503.43" y="466.57" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#1C4558">金银珠宝类</text>
+<rect x="1453.09" y="502.72" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1503.43" y="515.35" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">珠宝钟表</text>
+<text x="1503.43" y="534.35" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">与银器零售</text>
+<rect x="1570.11" y="453.93" width="100.68" height="25.27" rx="2" fill="#D5EDF8" stroke="#A6D0E8" stroke-width="1"/>
+<text x="1620.45" y="466.57" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#1C4558">通讯器材类</text>
+<rect x="1561.61" y="502.72" width="117.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1620.45" y="515.35" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">通信器材零售</text>
+<rect x="1699.03" y="403.14" width="129.68" height="27.27" rx="2" fill="#D0DCF7" stroke="#AFC0E8" stroke-width="1"/>
+<text x="1763.87" y="416.78" text-anchor="middle" dominant-baseline="middle" font-size="19" font-weight="700" fill="#2A3C64">石油及制品类</text>
+<rect x="1696.53" y="453.93" width="134.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1763.87" y="466.57" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">非车用燃料零售</text>
+<rect x="1705.03" y="487.04" width="117.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1763.87" y="499.68" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">车辆能源补给</text>
+<rect x="1696.53" y="520.15" width="134.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1763.87" y="532.79" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">石油及制品批发</text>
+<rect x="1967.72" y="403.14" width="72.68" height="27.27" rx="2" fill="#D0DCF7" stroke="#AFC0E8" stroke-width="1"/>
+<text x="2004.06" y="416.78" text-anchor="middle" dominant-baseline="middle" font-size="19" font-weight="700" fill="#2A3C64">家居类</text>
+<rect x="1890.96" y="453.93" width="66.68" height="25.27" rx="2" fill="#D5EDF8" stroke="#A6D0E8" stroke-width="1"/>
+<text x="1924.30" y="466.57" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#1C4558">家具类</text>
+<rect x="1873.96" y="502.72" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1924.30" y="515.35" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">家居日用</text>
+<text x="1924.30" y="534.35" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">与装饰用品</text>
+<rect x="1873.96" y="554.83" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1924.30" y="567.47" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">家具与家</text>
+<text x="1924.30" y="586.47" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">居综合零售</text>
+<rect x="1848.46" y="606.94" width="151.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1924.30" y="619.58" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">办公商务家具批发</text>
+<rect x="2007.98" y="453.93" width="151.68" height="25.27" rx="2" fill="#D5EDF8" stroke="#A6D0E8" stroke-width="1"/>
+<text x="2083.81" y="466.57" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#1C4558">建筑及装潢材料类</text>
+<rect x="2024.98" y="502.72" width="117.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="2083.81" y="515.35" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">建材五金与</text>
+<text x="2083.81" y="534.35" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">配套用品零售</text>
+<rect x="2033.48" y="554.83" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="2083.81" y="567.47" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">建材五金</text>
+<text x="2083.81" y="586.47" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">与设备批发</text>
+<rect x="2207.90" y="403.14" width="72.68" height="27.27" rx="2" fill="#D0DCF7" stroke="#AFC0E8" stroke-width="1"/>
+<text x="2244.24" y="416.78" text-anchor="middle" dominant-baseline="middle" font-size="19" font-weight="700" fill="#2A3C64">汽车类</text>
+<rect x="2193.90" y="453.93" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="2244.24" y="466.57" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">汽车与旅</text>
+<text x="2244.24" y="485.57" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">居车辆销售</text>
+<rect x="2185.40" y="506.04" width="117.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="2244.24" y="518.68" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">二手汽车销售</text>
+<rect x="2176.90" y="539.15" width="134.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="2244.24" y="551.79" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">其他交通工具</text>
+<text x="2244.24" y="570.79" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">与动力设备销售</text>
+<rect x="2193.90" y="591.26" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="2244.24" y="603.90" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">摩托车及</text>
+<text x="2244.24" y="622.90" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">零配件零售</text>
+<rect x="2193.90" y="643.37" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="2244.24" y="656.01" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">汽车配件</text>
+<text x="2244.24" y="675.01" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">与轮胎零售</text>
+<rect x="1152.20" y="832.26" width="59.68" height="30.27" rx="2" fill="#DCCEF2" stroke="#C3AEE0" stroke-width="1"/>
+<text x="1182.04" y="847.39" text-anchor="middle" dominant-baseline="middle" font-size="22" font-weight="700" fill="#3E2C5A">服务</text>
+<rect x="296.64" y="886.05" width="129.68" height="27.27" rx="2" fill="#D0DCF7" stroke="#AFC0E8" stroke-width="1"/>
+<text x="361.47" y="899.68" text-anchor="middle" dominant-baseline="middle" font-size="19" font-weight="700" fill="#2A3C64">交通运输服务</text>
+<rect x="302.64" y="936.84" width="117.68" height="44.27" rx="2" fill="#D5EDF8" stroke="#A6D0E8" stroke-width="1"/>
+<text x="361.47" y="949.47" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#1C4558">交通运输、</text>
+<text x="361.47" y="968.47" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#1C4558">仓储和邮政业</text>
+<rect x="319.64" y="1004.62" width="83.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="361.47" y="1017.26" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">铁路货运</text>
+<rect x="302.64" y="1037.73" width="117.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="361.47" y="1050.37" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">国铁运输服务</text>
+<rect x="319.64" y="1070.85" width="83.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="361.47" y="1083.48" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">铁路客运</text>
+<rect x="319.64" y="1103.96" width="83.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="361.47" y="1116.59" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">航空客运</text>
+<rect x="294.14" y="1137.07" width="134.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="361.47" y="1149.70" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">城市及公路客运</text>
+<rect x="319.64" y="1170.18" width="83.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="361.47" y="1182.81" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">水上客运</text>
+<rect x="319.64" y="1203.29" width="83.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="361.47" y="1215.92" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">仓储服务</text>
+<rect x="294.14" y="1236.40" width="134.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="361.47" y="1249.03" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">快递物流与邮政</text>
+<rect x="302.64" y="1269.51" width="117.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="361.47" y="1282.14" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">其他运输服务</text>
+<rect x="302.64" y="1302.62" width="117.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="361.47" y="1315.26" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">交通配套服务</text>
+<rect x="486.56" y="886.05" width="53.68" height="27.27" rx="2" fill="#D0DCF7" stroke="#AFC0E8" stroke-width="1"/>
+<text x="513.40" y="899.68" text-anchor="middle" dominant-baseline="middle" font-size="19" font-weight="700" fill="#2A3C64">教育</text>
+<rect x="446.06" y="936.84" width="134.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="513.40" y="949.47" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">技能培训、教育</text>
+<text x="513.40" y="968.47" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">辅助及其他教育</text>
+<rect x="446.06" y="988.95" width="134.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="513.40" y="1001.58" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">初等和中等教育</text>
+<rect x="471.56" y="1022.06" width="83.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="513.40" y="1034.69" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">高等教育</text>
+<rect x="471.56" y="1055.17" width="83.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="513.40" y="1067.80" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">学前教育</text>
+<rect x="619.48" y="886.05" width="91.68" height="27.27" rx="2" fill="#D0DCF7" stroke="#AFC0E8" stroke-width="1"/>
+<text x="665.32" y="899.68" text-anchor="middle" dominant-baseline="middle" font-size="19" font-weight="700" fill="#2A3C64">金融服务</text>
+<rect x="597.98" y="936.84" width="134.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="665.32" y="949.47" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">银行与支付服务</text>
+<rect x="606.48" y="969.95" width="117.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="665.32" y="982.58" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">其他金融服务</text>
+<rect x="606.48" y="1003.06" width="117.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="665.32" y="1015.69" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">证券投资服务</text>
+<rect x="623.48" y="1036.17" width="83.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="665.32" y="1048.80" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">保险服务</text>
+<rect x="893.93" y="886.05" width="148.68" height="27.27" rx="2" fill="#D0DCF7" stroke="#AFC0E8" stroke-width="1"/>
+<text x="968.27" y="899.68" text-anchor="middle" dominant-baseline="middle" font-size="19" font-weight="700" fill="#2A3C64">居民及商业服务</text>
+<rect x="783.91" y="936.84" width="83.68" height="25.27" rx="2" fill="#D5EDF8" stroke="#A6D0E8" stroke-width="1"/>
+<text x="825.75" y="949.47" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#1C4558">居民服务</text>
+<rect x="775.41" y="985.62" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="825.75" y="998.26" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">日用产品</text>
+<text x="825.75" y="1017.26" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">与设备维修</text>
+<rect x="775.41" y="1037.73" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="825.75" y="1050.37" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">汽车维修</text>
+<text x="825.75" y="1069.37" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">养护与救援</text>
+<rect x="775.41" y="1089.85" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="825.75" y="1102.48" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">美容美发</text>
+<text x="825.75" y="1121.48" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">与洗浴保健</text>
+<rect x="749.91" y="1141.96" width="151.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="825.75" y="1154.59" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">其他居民生活服务</text>
+<rect x="766.91" y="1175.07" width="117.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="825.75" y="1187.70" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">洗护清洁服务</text>
+<rect x="783.91" y="1208.18" width="83.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="825.75" y="1220.81" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">家政服务</text>
+<rect x="766.91" y="1241.29" width="117.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="825.75" y="1253.92" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">公共事业缴费</text>
+<rect x="909.43" y="936.84" width="117.68" height="25.27" rx="2" fill="#D5EDF8" stroke="#A6D0E8" stroke-width="1"/>
+<text x="968.27" y="949.47" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#1C4558">信息技术服务</text>
+<rect x="917.93" y="985.62" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="968.27" y="998.26" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">通信与网</text>
+<text x="968.27" y="1017.26" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">络接入服务</text>
+<rect x="917.93" y="1037.73" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="968.27" y="1050.37" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">软件与信</text>
+<text x="968.27" y="1069.37" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">息技术服务</text>
+<rect x="1034.94" y="936.84" width="151.68" height="25.27" rx="2" fill="#D5EDF8" stroke="#A6D0E8" stroke-width="1"/>
+<text x="1110.78" y="949.47" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#1C4558">租赁和商务服务业</text>
+<rect x="1051.94" y="985.62" width="117.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1110.78" y="998.26" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">商务支持服务</text>
+<rect x="1060.44" y="1018.73" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1110.78" y="1031.37" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">商务咨询</text>
+<text x="1110.78" y="1050.37" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">与专业服务</text>
+<rect x="1060.44" y="1070.85" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1110.78" y="1083.48" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">车辆设备</text>
+<text x="1110.78" y="1102.48" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">与用品租赁</text>
+<rect x="1068.94" y="1122.96" width="83.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1110.78" y="1135.59" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">音像服务</text>
+<rect x="1051.94" y="1156.07" width="117.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1110.78" y="1168.70" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">园林景观服务</text>
+<rect x="1060.44" y="1189.18" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1110.78" y="1201.81" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">办公与电</text>
+<text x="1110.78" y="1220.81" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">子设备商贸</text>
+<rect x="1462.40" y="886.05" width="53.68" height="27.27" rx="2" fill="#D0DCF7" stroke="#AFC0E8" stroke-width="1"/>
+<text x="1489.24" y="899.68" text-anchor="middle" dominant-baseline="middle" font-size="19" font-weight="700" fill="#2A3C64">文旅</text>
+<rect x="1237.87" y="936.84" width="66.68" height="25.27" rx="2" fill="#D5EDF8" stroke="#A6D0E8" stroke-width="1"/>
+<text x="1271.21" y="949.47" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#1C4558">住宿类</text>
+<rect x="1203.87" y="985.62" width="134.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1271.21" y="998.26" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">酒店与度假住宿</text>
+<rect x="1380.39" y="936.84" width="66.68" height="25.27" rx="2" fill="#D5EDF8" stroke="#A6D0E8" stroke-width="1"/>
+<text x="1413.73" y="949.47" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#1C4558">旅游类</text>
+<rect x="1346.39" y="985.62" width="134.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1413.73" y="998.26" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">营地与露营服务</text>
+<rect x="1346.39" y="1018.73" width="134.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1413.73" y="1031.37" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">游乐与科普场馆</text>
+<rect x="1346.39" y="1051.85" width="134.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1413.73" y="1064.48" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">旅行与游览服务</text>
+<rect x="1531.40" y="936.84" width="66.68" height="25.27" rx="2" fill="#D5EDF8" stroke="#A6D0E8" stroke-width="1"/>
+<text x="1564.74" y="949.47" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#1C4558">文体类</text>
+<rect x="1505.90" y="985.62" width="117.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1564.74" y="998.26" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">文化娱乐服务</text>
+<rect x="1514.40" y="1018.73" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1564.74" y="1031.37" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">运动健身</text>
+<text x="1564.74" y="1050.37" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">场馆与赛事</text>
+<rect x="1488.90" y="1070.85" width="151.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1564.74" y="1083.48" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">体育娱乐场馆服务</text>
+<rect x="1673.92" y="936.84" width="66.68" height="25.27" rx="2" fill="#D5EDF8" stroke="#A6D0E8" stroke-width="1"/>
+<text x="1707.26" y="949.47" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#1C4558">娱乐类</text>
+<rect x="1648.42" y="985.62" width="117.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1707.26" y="998.26" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">文化娱乐服务</text>
+<rect x="1665.42" y="1018.73" width="83.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1707.26" y="1031.37" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">彩票销售</text>
+<rect x="1823.85" y="886.05" width="53.68" height="27.27" rx="2" fill="#D0DCF7" stroke="#AFC0E8" stroke-width="1"/>
+<text x="1850.69" y="899.68" text-anchor="middle" dominant-baseline="middle" font-size="19" font-weight="700" fill="#2A3C64">医疗</text>
+<rect x="1783.35" y="936.84" width="134.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1850.69" y="949.47" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">医疗护理与看护</text>
+<rect x="1800.35" y="969.95" width="100.68" height="44.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="1850.69" y="982.58" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">医疗诊疗</text>
+<text x="1850.69" y="1001.58" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">与辅助服务</text>
+<rect x="1966.27" y="886.05" width="72.68" height="27.27" rx="2" fill="#D0DCF7" stroke="#AFC0E8" stroke-width="1"/>
+<text x="2002.61" y="899.68" text-anchor="middle" dominant-baseline="middle" font-size="19" font-weight="700" fill="#2A3C64">政府类</text>
+<rect x="1943.77" y="936.84" width="117.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="2002.61" y="949.47" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">社会组织服务</text>
+<rect x="1935.27" y="969.95" width="134.68" height="25.27" rx="2" fill="#F8E7C6" stroke="#E4CC96" stroke-width="1"/>
+<text x="2002.61" y="982.58" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="400" fill="#5C4216">政务与公共收费</text>
+<text x="1169.5" y="1637.0" text-anchor="middle" dominant-baseline="middle" font-size="14" fill="#667085">依据《MCC行业分类对应表》指数行业分类表。同名连续层级已合并。家居类由原“住房类”调整。底层指数 101 项（名称 100 个，“文化娱乐服务”分列于文体类与娱乐类）。</text>
+</g></svg>
